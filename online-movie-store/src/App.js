@@ -33,7 +33,12 @@ function App() {
           <h2>No results</h2>
         ) : (
           newData.results.map((d) => (
-            <Movie name={d.name} key={Math.random().toString()}></Movie>
+            <Movie
+              title={d.title}
+              key={d.id}
+              bg={d.poster_path}
+              original={d.original_title}
+            ></Movie>
           ))
         )}
       </Grid>

@@ -4,10 +4,14 @@ import InfoIcon from "../UI/InfoIcon";
 import MovieOverlay from "../UI/MovieOverlay";
 
 const Movie = (props) => {
+  let bg = `https://image.tmdb.org/t/p/w500${props.bg}`;
+
   return (
-    <div className={styles.movie}>
+    <div className={styles.movie} style={{ backgroundImage: `url(${bg})` }}>
       <MovieOverlay className={styles.overlay}>
-        <h3>{props.name}</h3>
+        <h3 className={styles.header}>
+          {props.title === undefined ? props.original : props.title}
+        </h3>
         <Button className={styles.button}>Add</Button>
         <InfoIcon className={styles.info}></InfoIcon>
       </MovieOverlay>

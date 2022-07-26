@@ -21,8 +21,9 @@
 }
 
 .search {
-  outline: none;
-  border: 1px solid rgba(0, 0, 0, 0.322);
+  outline: 0px white;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
   padding: 3px;
   margin-top: auto;
   width: 200px;
