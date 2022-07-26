@@ -4,9 +4,8 @@ import SearchInput from "../UI/SearchInput";
 import styles from "./Header.module.css";
 
 const Header = (props) => {
-  const getSearchInput = (e) => {
-    // console.log(e.target.value);
-    props.getData(e.target.value);
+  const getSearchInput = (value) => {
+    props.getData(value);
   };
 
   return (

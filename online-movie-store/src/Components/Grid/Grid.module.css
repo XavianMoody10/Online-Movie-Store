@@ -1,7 +1,7 @@
 .grid {
   border: 1px solid rgba(0, 0, 0, 0.274);
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(5, auto);
   width: max-content;
   min-width: 40%;
   height: auto;

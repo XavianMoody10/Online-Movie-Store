@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Movie.module.css";
 import Button from "../UI/Button";
 import InfoIcon from "../UI/InfoIcon";
