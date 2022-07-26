@@ -1,0 +1,12 @@
+.grid {
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: max-content;
+  min-width: 40%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  gap: 30px;
+  padding: 20px;
+}
